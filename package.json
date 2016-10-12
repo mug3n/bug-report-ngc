@@ -1,9 +1,9 @@
 {
   "scripts": {
     "postinstall": "typings install",
-    "payroll:serve:dev": "gulp --gulpfile components/payroll_component/gulpfile.js",
-    "payroll:cleanup": "gulp buildCleanUp --gulpfile components/payroll_component/gulpfile.js",
-    "payroll:build:prod": "gulp buildProd --gulpfile components/payroll_component/gulpfile.js"
+    "app:serve:dev": "gulp --gulpfile components/app_component/gulpfile.js",
+    "app:cleanup": "gulp buildCleanUp --gulpfile components/app_component/gulpfile.js",
+    "app:build:prod": "gulp buildProd --gulpfile components/app_component/gulpfile.js"
   },
   "dependencies": {
     "@angular/common": "~2.0.1",
