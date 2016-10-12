@@ -1,0 +1,40 @@
+body,
+html {
+  font-size: 13px;
+}
+
+p {
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+h1 {
+  border: 0 none;
+  font: normal 16px tahoma;
+  font-weight: bold;
+  margin: 0;
+  text-transform: none;
+}
+
+$gray1: '#f6f6f6';
+$gray2: '#eeeeee';
+
+payroll-component {
+
+  > div {
+    &:first-child {
+      background-color: $gray1;
+      border-right: .15em solid $gray2;
+      float: left;
+      height: 100%;
+      width: 14.615em;
+    }
+
+    &:last-child {
+      float: left;
+      height: 100%;
+      position: relative;
+      width: calc(100% - 14.615em);
+    }
+  }
+}
